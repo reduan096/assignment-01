@@ -1,0 +1,233 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  /* header button style */
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color:#FFFFFF ;
+    font-size: 18px;
+    color: #006A50;
+    padding:15px 30px ;
+    border-radius: 8px;
+    border-color:rgba(0, 106, 80, 1);
+  }
+  /* header title styles */
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #0E0E0E;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 31px 160px;
+    
+}
+nav ul li{
+    list-style: none;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 160px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.banner-content{
+    width: 622px;
+    padding: 117px 64px;
+    
+}
+.btn-2{
+    background-color:#006A50 ;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border: none;
+}
+.dark-1{
+     color:rgba(14, 14, 14, 0.5);
+}
+.banner-greeting{
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.banner-title{
+    font-size: 56px;
+    font-weight: 700;
+}
+.banner-pic{
+    width: 475px;;
+    padding: 80px 60px;
+}
+/* section styles */
+main section{
+    margin: 60px 160px;
+}
+.item-description{
+    font-weight: 354px;
+    color:rgba(14, 14, 14, 0.7);
+    
+}
+.items{
+    display: flex;
+    gap: 24px;
+}
+.item{
+    padding: 24px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 1);
+    border-radius: 16px;
+}
+.items-2{
+ display: flex;
+ gap: 24px;
+ border-radius: 16px;
+ 
+  
+}
+.item-2{
+    padding: 32px;
+    border-radius: 16px;   
+}
+.box-1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.box-2{
+    background-color: rgba(198, 228, 214, 1);
+}
+.box-3{
+    background-color: rgba(247, 235, 207, 1);
+}
+.b-btn1{
+    background-color: rgba(84, 144, 245, 1);
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border-radius:8px ;
+    border: none;
+}
+.b-btn-2{
+    background-color: rgba(9, 161, 92, 1);
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border-radius:8px ;
+    border: none;
+}
+.b-btn-3{
+    background-color: rgba(255, 194, 57, 1);
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border-radius:8px ;
+    border: none;
+}
