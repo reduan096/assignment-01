@@ -231,3 +231,93 @@ main section{
     border-radius:8px ;
     border: none;
 }
+.news{
+    display: flex;
+    max-width: 1200px;
+    background-color: white;
+    border-radius:24px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 1);
+
+    
+}
+.news-2{
+    display: flex;
+    max-width: 1200px;
+    background-color: white;
+    border-radius:24px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 1);
+}
+.news-pic{
+    max-width: 408px;
+    padding: 50px 48px;
+    
+}
+img{
+    border-radius: 24px;
+}
+.date-time{
+    display: flex;
+    gap: 12px;
+
+}
+.news-content{
+    width: 744px;
+    padding: 48px 32px;
+    
+}
+h3{
+    margin-top: auto;
+}
+.donate{
+    text-align: center;
+}
+.donate-tk{
+    display: flex;
+    gap: 24px;
+    
+}
+.d-btn1{
+    font-family: "Fira Sans", serif;
+    background-color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 40px 40px;
+    border-radius: 16px;
+
+}
+.d-btn2{
+    background-color: #C6E4D6;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 40px 40px;
+    border-radius: 16px;
+
+
+}
+section input[type="text"]{
+    height: 64px;
+    width: 100%;
+    text-align: center;
+    margin-top: 52px;
+    
+}
+.d-done{
+    margin-top: 52px;
+    text-align: center;
+}
+.last-section{
+    background-color: rgba(198, 228, 214, 1);
+    text-align: center;
+    padding: 80px 264px;
+    border-radius: 24px;
+}
+.email-bar{
+    display: flex;
+    justify-content: center;
+}
+section input[type="email"]{
+    height: 55px;
+    width: 600px;
+}
